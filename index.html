@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Helping S.A.</title>
+ 
+  <link rel="stylesheet" href="./assets/styles.css" />
+  <link rel="stylesheet" href="./assets/mediaqueries.css" />
+  <link rel="stylesheet" href="./assets/animaciones.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com"> 
+</head>
+
+<body>
+  <header>
+     <a href="https://api.whatsapp.com/send?phone=987654321" 
+     class="btn-wsp" target="_blank">              
+      <i class="fa-brands fa-whatsapp"></i>
+  </a>
+      <div class="menu-label">
+        <img src="./assets/img/menu.png" alt="" class="menu-icon" />
+      </div>
+
+
+
+      <ul class="navbar-list">
+        <li><a class="navbar-link" href="index.html">Inicio</a></li>
+        <li><a class="navbar-link" href="#products">Prestaciones</a></li>
+        <li><a class="navbar-link" href="https://api.whatsapp.com/send?phone=987654321">Trabaja con nosotros</a></li>
+        <li><a class="navbar-link" href="#contacto">Contacto</a></li>
+        <li><a class="navbar-link" href="#social">Nuestras redes</a></li>
+      </ul>
+
+
+      <div class="cart-label">
+
+          <i class="fa-solid fa-cart-shopping cart-icon">
+            <div class="cart-bubble">0</div>
+          </i>
+
+       </div>
+      
+
+
+      <div class="cart">
+
+        <h2>Tus prestaciones contratadas</h2>
+
+
+        <div class="cart-container">
+
+        </div>
+
+        <span class="divider"></span>
+
+        <div class="cart-total">
+          <p>Total:</p>
+          <span class="total">3 US$</span>
+        </div>
+        <button class="btn-buy">Comprar</button>
+        <button class="btn-delete">Vaciar carrito</button>
+      </div>
+
+      <div class="overlay"></div>
+    </nav>
+  </header>
+
+  <main>
+
+
+
+
+    <section id="hero">
+      <div class="hero-info">
+        <h1>Helping S.A </h1>
+        <p>
+          Somos una empresa que Proporciona atención médica y servicios de enfermería a pacientes
+          que
+          no pueden asistir
+          a
+          un hospital o clínica
+          debido a limitaciones físicas o de salud.
+          Estos servicios pueden incluir la administración de medicamentos, la realización de pruebas médicas, la asistencia
+          con
+          actividades diarias y el monitoreo de la salud del paciente.
+          El objetivo es mejorar la calidad de vida de los pacientes y ayudarles a mantener su independencia en el
+          hogar.
+        </p>
+      </div>
+      <div class="hero-card">
+        <img src="assets/img/imagensalud.webp" alt="" /><div class="">
+        
+  
+      </div>
+        </div>
+      </div>
+
+    </section>
+ 
+    <section id="products">
+      <h2>Contrata prestaciones</h2>
+
+
+      <div class="categories">
+        <button class="category active">Todas las prestaciones</button>
+        <button class="category" data-category="Análisis clínicos">Análisis clínicos</button>
+        <button class="category" data-category="Pruebas cardiológicas">Pruebas cardiológicas</button>
+        <button class="category" data-category="Visita especialidad">Visita especialidad</button>
+        <button class="category" data-category="Servicios farmacéuticos">Servicios farmacéuticos</button>
+        <button class="category" data-category="Diagnóstico por imágenes">Diagnóstico por imágenes</button>
+      </div>
+
+      <div class="products-container">
+    
+      </div>
+
+      <button class="btn-load">Ver Más</button>
+
+    </section>
+
+
+    <div id="contacto">
+      <h2>Contacto</h2>
+      <form action="" class="formulario" id="formulario">
+       
+        <div class="formulario__grupo" id="grupo__usuario">
+          <label for="usuario" class="formulario__label">Usuario</label>
+          <div class="formulario__grupo-input">
+            <input type="text" class="formulario__input" name="usuario" id="usuario" placeholder="nancy123">
+            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+          </div>
+          <p class="formulario__input-error">Su mensaje tiene que ser de 4 a 14 digitos , puede contener letras numeros y guion bajo.</p>
+        </div>
+  
+        <div class="formulario__grupo" id="grupo__nombre">
+          <label for="nombre" class="formulario__label">Nombre</label>
+          <div class="formulario__grupo-input">
+            <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Nancy Lucero">
+            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+          </div>
+          <p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
+        </div>
+  
+    
+        <div class="formulario__grupo" id="grupo__password">
+          <label for="password" class="formulario__label">Contraseña</label>
+          <div class="formulario__grupo-input">
+            <input type="password" class="formulario__input" name="password" id="password">
+            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+          </div>
+          <p class="formulario__input-error">La contraseña tiene que ser de 4 a 12 dígitos.</p>
+        </div>
+  
+  
+        <div class="formulario__grupo" id="grupo__password2">
+          <label for="password2" class="formulario__label">Repetir Contraseña</label>
+          <div class="formulario__grupo-input">
+            <input type="password" class="formulario__input" name="password2" id="password2">
+            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+          </div>
+          <p class="formulario__input-error">Ambas contraseñas deben ser iguales.</p>
+        </div>
+  
+  
+        <div class="formulario__grupo" id="grupo__correo">
+          <label for="correo" class="formulario__label">Correo Electrónico</label>
+          <div class="formulario__grupo-input">
+            <input type="email" class="formulario__input" name="correo" id="correo" placeholder="lucero.nancy@gmail.com">
+            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+          </div>
+          <p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</p>
+        </div>
+  
+        <div class="formulario__grupo" id="grupo__telefono">
+          <label for="telefono" class="formulario__label">Teléfono</label>
+          <div class="formulario__grupo-input">
+            <input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="1526448022">
+            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+          </div>
+          <p class="formulario__input-error">El telefono solo puede contener numeros y el maximo son 14 dígitos.</p>
+        </div>
+  
+
+        <div class="formulario__grupo" id="grupo__terminos">
+          <label class="formulario__label">
+            <input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
+            Acepto los Terminos y Condiciones
+          </label>
+        </div>
+  
+        <div class="formulario__mensaje" id="formulario__mensaje">
+          <p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+        </div>
+      
+        <div class="formulario__grupo formulario__grupo-btn-enviar">
+          <button type="submit" class="formulario__btn">Enviar</button>
+          <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
+        </div>
+      
+      </form>
+    </div>
+  </main>
+      <footer>
+   <div class="direccion">Av. Rivadavia 7202 PB Capital Federal . Tel 4665-3987/88/89/90 Lineas rotativas las 24 Hs </div>
+   
+    <iframe class="map-iframe"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.986205981733!2d-58.46884182480613!3d-34.62978887294496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc988fa25e42b%3A0x35bf71e1b9fa5a42!2sAv.%20Rivadavia%207202%2C%20C1406%20C1406GMP%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1685105668132!5m2!1ses!2sar"
+      style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+
+   </iframe>
+   
+   <div class="social" id="social">
+    <i class="social-item">
+      <img src="assets/img/instagram.svg" alt="">
+    </i>
+    <i class="social-item">
+      <img src="assets/img/phone.svg" alt="">
+    </i>
+    <i class="social-item">
+      <img src="assets/img/twitter.svg" alt="">
+    </i>
+    <i class="social-item">
+      <img src="assets/img/envelope.svg" alt="">
+    </i>
+  </div>
+  <p>- Designed with <img src="assets/img/cuore.png" class="cuore" alt="">   by Nancy Lucero -</p>
+  <p> - 2023 Copy@right - All rights reserved. - </p>
+</div>
+   
+  </footer>
+
+  <div class="add-modal"></div>
+
+
+  <script src="./assets/formulario.js"></script>
+  <script src="./assets/data.js"></script>
+  <script src="./assets/index.js"></script>
+</body>
+
+</html>
