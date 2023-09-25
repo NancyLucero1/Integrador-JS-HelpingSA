@@ -93,6 +93,7 @@
   /*animacion - duración - animation-function - forwards para que quede fijo al final.*/
   animation: fade 1s ease-in forwards, slide-right 1.3s ease-in-out;
   animation-delay: 0.2s;
+  border-radius: 8rem;
 }
 
 

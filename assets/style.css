@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/*header*/
+
+header {
+    background:#0c5445;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 25px;
+    padding: 0px 80px 0px 80px;
+    margin: 0 auto;
+    z-index: 999;
+  }
+  
+  
+  .navbar,
+  .navbar-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .navbar {
+    gap: 100px;
+  }
+  .navbar-list {
+    gap: 30px;
+  }
+  
+  .navbar-list a {
+    color: white;
+    font-size: 18px;
+  }
+body {
+  font-family: "Poppins", sans-serif;
+  background:#0c5445;
+  color: white;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+
+
+.content__text h1 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.content__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content__img {
+  max-width: 600px;
+  padding: 50px;
+  border-radius: 30rem;
+
+}
+
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  gap: 50px;
+  flex-direction: column;
+}
+
+.content__text__btns {
+  display: flex;
+  gap: 30px;
+  padding-top: 30px;
+}
+
+.btn {
+  padding: 10px 25px;
+  border-radius: 1rem;
+  background-color: #252525;
+  font-size: 14px;
+}
+
+.btn--login {
+  background-color: #242424;
+}
+
+.btn__span {
+  background: #12c2e9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(135deg, #cb5eee 0%, #4be1ec 100%);
+  background: linear-gradient(135deg, #cb5eee 0%, #4be1ec 100%);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.btn--login:hover {
+  background-color: #171719;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0px;
+}
+
+.form--redirect {
+  margin-top: 10px;
+}
+
+.text--gradient,
+.link--gradient {
+
+  background: #12c2e9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(135deg, #cb5eee 0%, #4be1ec 100%);
+  background: linear-gradient(135deg, #cb5eee 0%, #4be1ec 100%);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  font-weight: 600;
+}
+
+.text--gradient {
+  text-transform: uppercase;
+}
+
+#logout-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+#logout-message i {
+  background: #12c2e9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(135deg, #cb5eee 0%, #4be1ec 100%);
+  background: linear-gradient(135deg, #cb5eee 0%, #4be1ec 100%);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  
+}
+#logout-message i :hover {
+  background: -webkit-linear-gradient(135deg, #c149e9 0%, #2bc7d2 100%);
+  background: linear-gradient(135deg, #c149e9 0%, #2bc7d2 100)
+}
+
+
+
+
+.btn-wsp{
+    position:fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom:30px;
+    right: 30px;
+    background: rgb(0, 255, 55);
+    color: white;
+    border-radius:50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0,0,0, 0.3);
+    z-index: 100;
+  }
+  .btn-wsp:hover{ 
+    text-decoration: none;
+    color: rgb(0, 255, 55);
+    background: white; 
+  }    
+  
+.bx {
+  font-size: 30px;
+  cursor: pointer;
+  color: #0fd5eb;
+  transform: translateX(); 
+  
+
+} 
+
