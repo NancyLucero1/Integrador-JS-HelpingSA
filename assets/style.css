@@ -11,14 +11,14 @@
 /*header*/
 
 header {
-    background:#0c5445;
+    background:rgb(16, 16, 16) ;
     width: 100%;
     position: fixed;
     top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 25px;
+    height: 65px;
     padding: 0px 80px 0px 80px;
     margin: 0 auto;
     z-index: 999;

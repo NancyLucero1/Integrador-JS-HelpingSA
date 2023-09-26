@@ -78,26 +78,22 @@
     transform: translateX(0);
   }
 }
-/* Animacion al p */
 .hero-info p {
   opacity: 0;
-  /*animacion - duración - animation-function - forwards para que quede fijo al final.*/
   animation: fade 0.8s ease-in forwards, slide-up 0.9s ease-in-out;
   animation-delay: 0.3s;
 }
 
 
-/* Animacion a la card del hero */
+
 .hero-card {
   opacity: 0;
-  /*animacion - duración - animation-function - forwards para que quede fijo al final.*/
   animation: fade 1s ease-in forwards, slide-right 1.3s ease-in-out;
   animation-delay: 0.2s;
   border-radius: 8rem;
 }
 
 
-/*Microinteracción para las imagenes de las cards de productos*/
 .product img {
   transition: all 0.3s linear;
 }
@@ -108,14 +104,12 @@
 }
 
 
-/*Para que vaya entrando el texto*/
 @keyframes typewriter {
   to {
     left: 100%;
   }
 }
 
-/*Microinteracción para las imagenes de las cards de redes sociales*/
 .social-item{
   transition: all 0.9s linear;
 }
