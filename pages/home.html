@@ -53,10 +53,6 @@
       </ul>
       
     </nav>
-
-
-  
-      
     </header>
    
 
@@ -66,13 +62,17 @@
                
                 <h1 class="content__text__title">Hola <span class="link--gradient" id="user-name">Nancy Lucero</span>
                 </h1>
-               
+
             </div>
-            <p>Gracias por formar parte de <span class="link--gradient">Helping S.A.</span></p>
+            <div class="titulo-gradientes">
+                <p>Gracias por formar parte de <span class="link--gradient">Helping S.A.</span></p>
+                <p>En <span class="link--gradient" >Helping S.A.</span>reunimos a  destadados prefesionales y sabemos como <span class="link--gradient">Cuidarte.</span></p>
+              </div>
              
             <div>
 
-              <img  class="content__img" src="../assets/img/imagensalud2.webp" alt="" />
+              <img  name="slider"width="600" height="400" id="imagensalud2" alt="" />
+
               <div id="logout-message">
                 Salir<i class="fas fa-sign-out-alt"></i>
               </div>
@@ -95,10 +95,44 @@
         </p>
     </footer>
     
+
   <div class="add-modal"></div>
 
+<script>
+  window.addEventListener ('load', function () {
+       console.log( 'el contenido cargado');
+
+       let imagenes = [  ];
+
+       imagenes [0] = '../assets/img/1.jpg';  
+       imagenes [1] = "../assets/img/2.jpg";
+       imagenes [2] = "../assets/img/3.jpg";
+       imagenes [3] = "../assets/img/4.webp";
+       imagenes [4] = '../assets/img/5.jpg';  
+       imagenes [5] = "../assets/img/6.jpg";
+       imagenes [6] = "../assets/img/7.webp";
+       imagenes [7] = "../assets/img/8.webp";
+       imagenes [8] = "../assets/img/9.jpg";
+       imagenes [9] = "../assets/img/10.jpg";
+
+       let indiceImagenes = 0 ;
+       const tiempo = 1000 ;
+
+       function cambiarImagenes () { 
+        document.slider.src =  imagenes [indiceImagenes];
+           if (indiceImagenes < 9 ) { indiceImagenes ++; 
+       }
+          else { indiceImagenes = 0; 
+       }
+    }
+ 
+       setInterval (cambiarImagenes,tiempo);   
+      
+      } );
+
+</script>
    
-  <script src="../assets/data.js"></script>        
+    <script src="../assets/data.js"></script>        
     <script src="../assets/home.js"></script>
     <script src="../assets/index.js"></script>
   
