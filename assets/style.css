@@ -8,7 +8,6 @@
   text-decoration: none;
 }
 
-/*header*/
 header {
   background: rgb(16, 16, 16);
   width: 100%;
@@ -60,10 +59,10 @@ main {
 
 
 .content__text h1 {
-  font-size: 4rem;
   font-weight: 200;
   transform: translateY(50px);
-
+  font-size: 3rem;
+  
 }
 
 .content__text {
@@ -73,7 +72,7 @@ main {
 }
 
 .content__img {
-  max-width: 600px;
+  max-width: 400px;
   padding: 50px;
   border-radius: 30rem;
 
@@ -107,7 +106,7 @@ main {
 }
 
 .btn__span {
-  background: #12c2e9; /* fallback for old browsers */
+  background: #12c2e9; 
   background: -webkit-linear-gradient(135deg, #cb5eee 0%, #4be1ec 100%);
   background: linear-gradient(135deg, #cb5eee 0%, #4be1ec 100%);
   background-clip: text;
@@ -136,7 +135,7 @@ footer {
 .text--gradient,
 .link--gradient {
 
-  background: #12c2e9; /* fallback for old browsers */
+  background: #12c2e9; 
   background: -webkit-linear-gradient(135deg, #cb5eee 0%, #4be1ec 100%);
   background: linear-gradient(135deg, #cb5eee 0%, #4be1ec 100%);
   background-clip: text;
@@ -198,10 +197,14 @@ footer {
   }    
   
 .bx {
-  font-size: 30px;
+  font-size: 40px;
   cursor: pointer;
   color: #0fd5eb;
-  transform: translateX(); 
+  transform: translateX(10px); 
+
+
+
+
 
 } 
 .button-equipo {
@@ -215,7 +218,12 @@ footer {
   text-align: center;
 
 } 
-#imagensalud2 {
-  border-radius: 160px;
-}
-  
+
+
+#imagensaludhome { 
+border: 2px solid var(--electric);
+max-width: 700px;
+ padding: 1px;
+  border-radius: 200px;
+  gap: 20px;
+} 

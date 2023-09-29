@@ -6,7 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Home</title>
-
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/180x180.jpg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/32x32.jpg" />
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/16x16.jpg" />
    
    <link rel="stylesheet" href="../assets/style.css" />
   <link rel="stylesheet" href="../assets/styles.css" />
@@ -71,7 +73,7 @@
              
             <div>
 
-              <img  name="slider"width="600" height="400" id="imagensalud2" alt="" />
+              <img  name="slider"width="600" height="400" id="imagensaludhome" alt="" />
 
               <div id="logout-message">
                 Salir<i class="fas fa-sign-out-alt"></i>
@@ -100,8 +102,7 @@
 
 <script>
   window.addEventListener ('load', function () {
-       console.log( 'el contenido cargado');
-
+       
        let imagenes = [  ];
 
        imagenes [0] = '../assets/img/1.jpg';  
@@ -116,7 +117,7 @@
        imagenes [9] = "../assets/img/10.jpg";
 
        let indiceImagenes = 0 ;
-       const tiempo = 1000 ;
+       const tiempo = 1500 ;
 
        function cambiarImagenes () { 
         document.slider.src =  imagenes [indiceImagenes];

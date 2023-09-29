@@ -30,7 +30,6 @@
   list-style-type: none;
 }
 
-/*header*/
 
 header {
   background: rgb(16, 16, 16);
@@ -95,13 +94,14 @@ header {
   align-items: center;
   padding-left: 1px;
   border-radius: 50%;
+  border: 1px solid var(--electric);
 }
 
 .menu-label {
   display: none;
 }
 
-/*carrito*/
+
 .cart {
   position: absolute;
   top: 65px;
@@ -142,7 +142,7 @@ header {
   align-items: center;
   justify-content: space-between;
   gap: 10px;
-  background-color: #2e3030e1;
+  background-color: #0c5445 ;
   padding: 5px;
   border: 1px solid #54f9d8e1  ;
   border-radius: 100px;
@@ -257,7 +257,6 @@ header {
   font-size: 14px;
 }
 
-/*main*/
 main {
   background: var(--background);
   display: flex;
@@ -268,7 +267,6 @@ main {
   width: 100%;
 }
 
-/*Hero*/
 #hero {
   margin-top: 65px;
   padding: 10px 0;
@@ -302,21 +300,21 @@ main {
   color: var(--text-gray);
 }
 
-.hero-card {
-  max-width: 700px;
-  padding: 20px;
 
-}
-.imagensalud {
+
+
+.imagensalud1 {
   max-width: 700px;
-  padding: 50px;
+  padding: 1px;
   border-radius: 200px;
+  gap: 20px;
+  border: 2px solid var(--electric);
 
 }
 
 
 
-/* Products Section */
+
 
 #products {
   display: flex;
@@ -336,7 +334,6 @@ main {
 
 
 
-/* categories */
 .categories {
   display: flex;
   align-items: center;
@@ -351,13 +348,14 @@ main {
   color: var(--bg-white);
   border-radius: 10px;
   cursor: pointer;
+  border: 1px solid var(--electric); 
 }
 
 .active {
   background: var(--primary);
 }
 
-/* products */
+
 .products-container {
   display: flex;
   flex-wrap: wrap;
@@ -369,7 +367,7 @@ main {
 }
 
 .product {
-  background: var(--secondary);
+  background: #0c5445;
   padding: 20px;
   border-radius: 15px;
   display: flex;
@@ -379,6 +377,7 @@ main {
   margin-bottom: 20px;
   -webkit-animation: fade-in 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: fade-in 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  border: 1px solid var(--electric);
 }
 
 
@@ -424,7 +423,7 @@ main {
   cursor: pointer;
 }
 
-/* footer */
+
 footer {
   background: var(--background);
   color: var(--bg-white);
@@ -573,12 +572,12 @@ text-align: center;
 .formulario__input {
 	width: 100%;
 	background: white;
-	border: 3px solid transparent;
 	border-radius: 10px;
 	height: 45px;
 	line-height: 45px;
 	padding: 0 40px 0 10px;
 	transition: .3s ease all;
+  border: 2px solid var(--electric);
 }
 
 .formulario__input:focus {
