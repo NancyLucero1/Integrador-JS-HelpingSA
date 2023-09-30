@@ -6,7 +6,7 @@
 
 body { 
     min-height: 100vh;
-    background-image: linear-gradient(-45deg, #12eae3 50%, #0c5445  50%);
+    background-image: linear-gradient(-45deg, #12eae3 50%,  #004643 50%);
     font-family: 'Raleway', sans-serif;
 }
 

@@ -3,10 +3,10 @@
 
 :root {
   /* bg colors */
-  --background: #0c5445;
+  --background:#004643 ;
   --primary: #0fd5eb;
   --secondary: #272d37;
-  --btn-bg: #086860;
+  --btn-bg: #004643  ;
   --bg-azul-10: #e9eeff;
   --bg-white: #fff;
   --bg-electric: #f0fbff;
@@ -16,7 +16,7 @@
   --text-gray: #adb9c7;
   --text-white: #f3f4f6;
 /* Decoration */
---acua: #0d7868;
+--acua: #004643 ;
 --electric: #64d3ff;
   
 }
@@ -30,6 +30,10 @@
   list-style-type: none;
 }
 
+body {
+	font-family: 'Roboto', sans-serif;
+	background:  #004643 ;
+}
 
 header {
   background: rgb(16, 16, 16);
@@ -80,10 +84,10 @@ header {
 
 .cart-bubble {
   position: absolute;
-  top: -11px;
+  top: -13px;
   right: -19px;
   text-align: center;
-  background:#0c5445 ;
+  background: #004643 ;
   color: var(--text-white);
   font-size: 10px;
   font-weight: 600;
@@ -107,7 +111,7 @@ header {
   top: 65px;
   right: 0;
   padding: 10px 10px;
-  background: linear-gradient(to top, #115a4f, var(--background));
+  background: linear-gradient(to top,#004643  , var(--background));
   border-left: 1px solid var(--nav-bg);
   display: flex;
   flex-direction: column;
@@ -142,7 +146,7 @@ header {
   align-items: center;
   justify-content: space-between;
   gap: 10px;
-  background-color: #0c5445 ;
+  background-color: #004643 ;
   padding: 5px;
   border: 1px solid #54f9d8e1  ;
   border-radius: 100px;
@@ -257,16 +261,6 @@ header {
   font-size: 14px;
 }
 
-main {
-  background: var(--background);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  width: 100%;
-}
-
 #hero {
   margin-top: 65px;
   padding: 10px 0;
@@ -367,7 +361,7 @@ main {
 }
 
 .product {
-  background: #0c5445;
+  background:#004643  ;
   padding: 20px;
   border-radius: 15px;
   display: flex;
@@ -542,8 +536,8 @@ footer p {
 }
 
 
-
-#contacto {background:#0c5445;
+#contacto {background:
+  #004643 ;
 font-weight: 800;
 color: white;
 text-align: center;
@@ -704,16 +698,20 @@ text-align: center;
 	box-sizing: border-box;
 }
 
-body {
-	font-family: 'Roboto', sans-serif;
-	background:  #0c5445;
-}
 
 main {
-	max-width: 800px;
-	width: 100%;
-	margin: auto;
+  background: var(--background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
 	padding: 40px;
 }
+
+
 
   

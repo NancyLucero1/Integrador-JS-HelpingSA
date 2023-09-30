@@ -46,7 +46,7 @@ header {
   
 body {
   font-family: "Poppins", sans-serif;
-  background:#0c5445;
+  background:#004643;
   color: white;
 }
 
@@ -197,21 +197,23 @@ footer {
   }    
   
 .bx {
-
-
+   
+  position: absolute;
   font-size: 30px;
   cursor: pointer;
   color: #0fd5eb;
   transform: translateY(-4px); 
-  position: absolute;
+  
   right: 510px;
-
+  padding-left: 1px;
+  text-align: center;
+  justify-content: center;
 
 } 
 .button-equipo {
   background: none;
   border: 1px solid var(--electric);
-  padding: 10px 50px;
+  padding: 10px 30px;
   color: var(--bg-white);
   border-radius: 10px;
   cursor: pointer;
@@ -228,3 +230,8 @@ max-width: 700px;
   border-radius: 200px;
   gap: 20px;
 } 
+.qr{ 
+ 
+ max-width: 170px;
+ border-radius: 20px;
+  } 
