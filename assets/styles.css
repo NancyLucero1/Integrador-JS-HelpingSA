@@ -80,8 +80,8 @@ header {
 
 .cart-bubble {
   position: absolute;
-  top: -8px;
-  right: -17px;
+  top: -11px;
+  right: -19px;
   text-align: center;
   background:#0c5445 ;
   color: var(--text-white);

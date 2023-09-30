@@ -194,6 +194,8 @@ const init = () =>{
 }
 
 init()
+
+
 const password = document.getElementById("password");
 const icon = document.querySelector(".bx");
 
@@ -209,7 +211,7 @@ icon.addEventListener("click" , e => {
         icon.classList.remove('bx-hide') 
 
       }
-    } )
+    } );
     
 
 

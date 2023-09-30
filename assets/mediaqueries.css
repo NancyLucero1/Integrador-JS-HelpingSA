@@ -48,20 +48,18 @@
   }
 
 
-  .hero-info {
-    width: 100%;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-  }
+ 
 
   .hero-info h1 {
     width: 90%;
     max-width: 500px;
     min-width: unset; 
   }
-
+  .titulo-gradientes {
+    width: 90%;
+    max-width: 500px;
+    min-width: unset; 
+  }
   .hero-info p {
     width: 60%;
     max-width: 600px;
@@ -71,7 +69,13 @@
     display: none;
   }
 
-  
+  #imagensaludhome { 
+    display: none;
+   
+    } 
+
+
+
   /* Products */
   .categories {
     flex-wrap: wrap;

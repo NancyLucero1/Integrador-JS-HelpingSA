@@ -197,13 +197,14 @@ footer {
   }    
   
 .bx {
-  font-size: 40px;
+
+
+  font-size: 30px;
   cursor: pointer;
   color: #0fd5eb;
-  transform: translateX(10px); 
-
-
-
+  transform: translateY(-4px); 
+  position: absolute;
+  right: 510px;
 
 
 } 
@@ -214,7 +215,7 @@ footer {
   color: var(--bg-white);
   border-radius: 10px;
   cursor: pointer;
-  transform: translateX(px) ;
+  
   text-align: center;
 
 } 

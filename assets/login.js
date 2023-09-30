@@ -4,40 +4,38 @@ const passInput = document.getElementById('password');
 const errorMessage = document.getElementById('form__error');
 
 
-// Nos traemos los usuarios del localstorage
+
 const users = JSON.parse(localStorage.getItem('users')) || [];
 
-// Función para guardar el usuario en el sessionStorage
+
 const saveToSessionStorage = (user) => {
   sessionStorage.setItem('activeUser', JSON.stringify(user));
 };
 
-// Función para chequear si el campo esta vacio (input)
+
 const isEmpty = (input) => {
   return !input.value.trim().length;
 };
 
-// Función para chequear si el mail ya existe en el array de usuarios
+
 const isExistingMail = (input) => {
   return users.some((user) => user.email === input.value.trim());
 };
 
-// Función para mostrar el error al validar el formulario
+
 const showError = (message) => {
   errorMessage.textContent = message;
 };
-// Función para recoger al usuario en caso que exista
+
 const getUser = () => {
    return users.find((user) => user.email === emailInput.value.trim());
 }
-// Función para validar si la passwor dingresada coincide con la registrada para ese mail
+
 const isMatchingPass = (input) => {
   const user = getUser()
-  return user.password === input.value.trim(); //''
+  return user.password === input.value.trim(); 
 };
 
-
-// funcion para validar el formulario de login
 
 const isValidAccount = () => {
   let valid = false;
@@ -66,7 +64,6 @@ const isValidAccount = () => {
   return valid;
 };
 
-// funcion para loguar al usuario
 
 const login = (e) => {
     e.preventDefault()
@@ -84,7 +81,7 @@ const init = () =>{
 
 init() 
 
-// Exitoso!//////////////////////////////////////////////////////////
+
 const password = document.getElementById("password");
 const icon = document.querySelector(".bx");
 
@@ -100,9 +97,6 @@ icon.addEventListener("click" , e => {
         icon.classList.remove('bx-hide') 
 
       }
-    } )
+    } );
 
-
-
-
-
+    
