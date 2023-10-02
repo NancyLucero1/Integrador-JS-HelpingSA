@@ -712,6 +712,8 @@ main {
 	padding: 40px;
 }
 
-
-
+.map-iframe {
+  border: 3px solid turquoise;
+  border-radius: 80px;
+} 
   
