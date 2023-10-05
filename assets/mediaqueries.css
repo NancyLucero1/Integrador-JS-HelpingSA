@@ -33,6 +33,8 @@
 
   .navbar-list a {
     font-size: 18px;
+
+
   }
 
   .menu-label {
@@ -52,10 +54,11 @@
 
 
  
-
-  .hero-info h1 {
+                
+ .hero-info h1, .content__text h1,h2, .profesionales-buscados, .scan h2 {
+       
     width: 90%;
-    max-width: 500px;
+    max-width: 800px;
     min-width: unset; 
   }
   .titulo-gradientes {
@@ -63,7 +66,8 @@
     max-width: 500px;
     min-width: unset; 
   }
-  .hero-info p {
+        
+  .hero-info p  {
     width: 60%;
     max-width: 600px;
   }
@@ -72,12 +76,12 @@
     display: none;
   }
 
-  #imagensaludhome { 
+  #imagensaludhome,  .button-equipo { 
     display: none;
    
     } 
 
-
+  
 
   /* Products */
   .categories {

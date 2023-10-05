@@ -8,6 +8,8 @@
   text-decoration: none;
 }
 
+
+
 header {
   background: rgb(16, 16, 16);
   width: 100%;
@@ -17,7 +19,7 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 65px;
-  padding: 0px 200px 0px 40px;
+  padding: 0px 200px 0px 70px;
   margin: 0 auto;
   z-index: 999;
 }
@@ -41,6 +43,7 @@ header {
   color: white;
   font-size: 18px;
 }
+
 
 
   
@@ -213,7 +216,7 @@ footer {
 .button-equipo {
   background: none;
   border: 1px solid var(--electric);
-  padding: 10px 30px;
+  padding: 10px 10px;
   color: var(--bg-white);
   border-radius: 10px;
   cursor: pointer;
@@ -231,10 +234,10 @@ max-width: 700px;
   gap: 20px;
 } 
 .qr{ 
-  border: 1px solid var(--electric);
- max-width: 380px;
+  
+ max-width: 280px;
  padding: 1px;
-  border-radius: 80px;
+  
   gap: 20px;
   cursor: pointer;
 

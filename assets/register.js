@@ -1,3 +1,4 @@
+
 const registerForm = document.getElementById('register-form');
 const nameInput = document.getElementById('name');
 const lastNameInput = document.getElementById('lastName');
