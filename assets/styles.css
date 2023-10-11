@@ -69,7 +69,10 @@ header {
   font-size: 18px;
 }
 
+.argentina, .london  {
+  cursor: pointer;
 
+}
 
 .cart-icon {
   font-weight: 600;
