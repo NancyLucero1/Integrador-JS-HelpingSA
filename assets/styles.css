@@ -58,7 +58,7 @@ header {
 }
 
 .navbar {
-  gap: 50px;
+  gap: 150px;
 }
 .navbar-list {
   gap: 50px;
@@ -69,19 +69,17 @@ header {
   font-size: 18px;
 }
 
-.argentina, .london  {
-  cursor: pointer;
 
-}
 
 .cart-icon {
   font-weight: 600;
   border-radius: 10px;
   font-size: 18px;
-  margin-right: 1rem;
+  margin-right: -5rem;
   color: var(--text-white);
   cursor: pointer;
   position: relative;
+  
 }
 
 
@@ -616,11 +614,11 @@ text-align: center;
 .formulario__mensaje {
 	height: 45px;
 	line-height: 45px;
-	background: #F66060;
+	background: #a02007;
 	padding: 0 15px;
 	border-radius: 3px;
 	display: none;
-  font-size: 11px;
+  font-size: 9px;
 }
 
 .formulario__mensaje-activo {
@@ -650,7 +648,7 @@ text-align: center;
 
 
 .formulario__btn:hover {
-	box-shadow: 3px 0px 30px white;
+	box-shadow: 3px 0px 50px rgb(49, 235, 226);
 }
 
 .formulario__mensaje-exito {

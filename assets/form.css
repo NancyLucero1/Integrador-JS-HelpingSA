@@ -5,6 +5,8 @@
   align-items: center;
   gap: 10px;
   margin-top: 30px;
+  max-width: 350px;
+  width: 90%;
 }
 
 .form__field {
@@ -26,7 +28,7 @@
   color: #171515;
   outline: none;
   border: none;
-  width: 350px;
+  width: 250px;
   margin: 5px 0px;
   border: 2px solid var(--electric);
   
@@ -50,7 +52,7 @@ color: var(--bg-white);
 border-radius: 10px;
 cursor: pointer;
  
-  width: 350px;
+  width: 250px;
 }
 
 .form__submit__btn:hover {

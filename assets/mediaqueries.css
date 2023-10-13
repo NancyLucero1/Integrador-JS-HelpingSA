@@ -1,6 +1,6 @@
 /* Tablet */
-@media (max-width: 992px) {
-  /*header*/
+@media (max-width: 1024px) {
+
 
   .navbar {
     gap: 10px;
@@ -10,9 +10,6 @@
     border: 0px solid;
   }
 
- .bx {
-    display: none;
-  }
   .navbar-list {
     position: absolute;
     top: 65px;
@@ -33,10 +30,9 @@
 
   .navbar-list a {
     font-size: 18px;
-
-
   }
 
+  
   .menu-label {
     display: flex;
     order: 2;
@@ -53,36 +49,33 @@
   }
 
 
- 
-                
- .hero-info h1, .content__text h1,h2, .profesionales-buscados, .scan h2 {
-       
-    width: 90%;
-    max-width: 800px;
-    min-width: unset; 
+
+  .hero-info {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
   }
-  .titulo-gradientes {
+
+  .hero-info h1, .content__text h1 {
     width: 90%;
     max-width: 500px;
-    min-width: unset; 
+    min-width: unset;
   }
-        
-  .hero-info p  {
+
+  .hero-info p {
     width: 60%;
     max-width: 600px;
   }
 
-  .hero-card {
+  .hero-card, #imagensaludhome{
     display: none;
   }
 
-  #imagensaludhome,  .button-equipo { 
-    display: none;
-   
-    } 
-
   
 
+ 
   /* Products */
   .categories {
     flex-wrap: wrap;
@@ -96,7 +89,6 @@
 
 /* Celu */
 @media (max-width: 576px) {
-  /* Modificar el carrito para celu*/
   .cart {
     left: 0;
     width: 100%;
@@ -112,6 +104,8 @@
     width: 70%;
     max-width: unset;
   }
+
+  
 
   
 
@@ -134,8 +128,26 @@
     width: 100%;
   }
 
-  
+  .product-info h3,
+  .product-info p,
+  .product-info span {
+    font-size: 14px;
+  }
+
  
+
+  /*footer*/
+  .footer-links,.direccion, .profesionales-buscados {
+    flex-direction: column;
+    text-align: center;
+  }
+  .scan h3{
+    text-align: center;
+    flex-direction: column;
+  }
+  .qr{
+    width: 300px;
+  }
 }
 
 @media (max-width: 450px) {
@@ -145,11 +157,13 @@
   .cart-container {
     align-items: center;
   }
-  .cart-item {
+  .cart-item, .scan h3  {
     width: 70%;
     justify-content: center;
     gap: 20px;
     flex-direction: column;
   }
-  
+  .item-info {
+    text-align: center;
+  }
 }
