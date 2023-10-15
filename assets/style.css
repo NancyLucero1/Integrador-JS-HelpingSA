@@ -209,22 +209,7 @@ footer {
     color: rgb(0, 255, 55);
     background: white; 
   }    
-  
-.bx {
-   
-  position: absolute;
-  font-size: 30px;
-  cursor: pointer;
-  color: #0fd5eb;
-  transform: translateX(-55px); 
-  text-align: center;
-  justify-content: center;
-  right: 510px;
-  padding-left: 1px;
-  display: none;
-  
 
-} 
 .button-equipo {
   background: none;
   border: 1px solid var(--electric);

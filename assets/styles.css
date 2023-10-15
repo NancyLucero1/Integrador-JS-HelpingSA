@@ -49,7 +49,21 @@ header {
   z-index: 999;
 }
 
-
+.filtrado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(150%);
+  border: rgb(40, 184, 184);
+  border-radius: 20px;
+ }
+ 
+ select {
+  background-color: #0b3d3b;
+  color: #33e7e7;
+  border: aqua;
+  border-radius: 20px;
+ }
 .navbar,
 .navbar-list {
   display: flex;
@@ -79,6 +93,7 @@ header {
   color: var(--text-white);
   cursor: pointer;
   position: relative;
+  transform: translateX(250%);
   
 }
 
