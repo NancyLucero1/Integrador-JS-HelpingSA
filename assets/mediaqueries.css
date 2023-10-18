@@ -18,7 +18,8 @@
     width: 80%;
     flex-direction: column;
     background-color: var(--nav-bg);
-    border: 2px solid var(--electric);
+    border: 2px solid rgb(211, 53, 211);
+    animation: cambiarcolores 4s linear infinite;
     border-top: 0px;
     border-radius: 0px 0px 15px 15px;
     align-items: flex-start;
@@ -27,7 +28,18 @@
     z-index: 2;
     display: none;
   }
+  @keyframes cambiarcolores {
 
+    25% {
+      border-color: #6c1154;
+    }
+    50% {
+      border-color: #133338; 
+    }
+    100% {
+      border-color: #cd6ad6; 
+    }
+  }
  
   .navbar-list a {
     font-size: 18px;
