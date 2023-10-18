@@ -1,8 +1,8 @@
 /* Tablet */
-@media (max-width: 1240px) {
+@media (max-width: 1280px) {
 
 
-  .navbar {
+  .navbar__container {
     gap: 10px;
   }
 

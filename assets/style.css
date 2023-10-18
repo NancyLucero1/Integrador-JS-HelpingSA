@@ -36,7 +36,7 @@ header {
   
 }
 
-.navbar,
+.navbar__container,
 .navbar-list {
   display: flex;
   align-items: center;
@@ -322,7 +322,6 @@ text-align: center;
       blink 0.8s steps(6) infinite;
   } 
 
-
-
+  
   
   

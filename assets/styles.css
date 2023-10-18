@@ -1,8 +1,8 @@
-/* font */
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap");
 
 :root {
-  /* bg colors */
+
   --background:#004643 ;
   --primary: #0fd5eb;
   --secondary: #272d37;
@@ -11,13 +11,10 @@
   --bg-white: #fff;
   --bg-electric: #f0fbff;
   --nav-bg: #0fd6d6;
-
-  /* Text colors */
   --text-gray: #adb9c7;
   --text-white: #f3f4f6;
-/* Decoration */
---acua: #004643 ;
---electric: #64d3ff;
+  --acua: #004643 ;
+  --electric: #64d3ff;
   
 }
 
@@ -47,7 +44,25 @@ header {
   padding: 0px 200px 0px 70px;
   margin: 0 auto;
   z-index: 999;
+  border-bottom: 1px solid rgb(46, 159, 155);
+  animation: cambiarcolor 4s linear infinite;
+  
 }
+@keyframes cambiarcolor {
+
+  25% {
+    border-color: #22e0d0;
+  }
+  50% {
+    border-color: #184e56; 
+  }
+  100% {
+    border-color: #91159a; 
+  }
+}
+
+
+
 
 .logo {
   margin-left: -1rem;
@@ -55,16 +70,15 @@ header {
   transform: translateX(2%);
   
 }
-.navbar,
-.navbar-list {
+
+.navbar__container, .navbar-list {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.navbar {
-  gap: 150px;
-}
+
+
 .navbar-list {
   gap: 50px;
 }
@@ -724,3 +738,7 @@ main {
   border-radius: 80px;
 } 
   
+.navbar__container {
+  gap: 150px;
+  animation: changeBorderColor 5s linear infinite;
+}
