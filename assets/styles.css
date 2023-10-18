@@ -284,8 +284,8 @@ header {
 
 #hero {
   margin-top: 65px;
-  padding: 10px 0;
-  max-width: 1200px;
+  padding: 35px 0;
+  max-width: 1300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -311,7 +311,7 @@ header {
 
 .hero-info p {
   font-size: 14px;
-  width: 70%;
+  width: 80%;
   color: var(--text-gray);
 }
 
@@ -330,25 +330,29 @@ header {
 
 
 
-
-#products {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 40px 0;
-  max-width: 1200px;
-  width: 100%;
-}
-
 #products h2 {
-  font-size: 32px;
-  font-weight: 800;
+  font-size: 28px;
+  font-weight: 600;
   margin-bottom: 40px;
+
 }
 
 
 
+
+
+
+
+.product-top h3 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.product-top p
+ {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-gray);
+}
 .categories {
   display: flex;
   align-items: center;
@@ -376,14 +380,14 @@ header {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 15px;
-  padding: 40px 0;
-  max-width: 1200px;
+  gap: 55px;
+  padding: 25px 0;
+  max-width: 800px;
 }
 
 .product {
   background:#004643  ;
-  padding: 20px;
+  padding: 10px;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -394,7 +398,15 @@ header {
   animation: fade-in 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   border: 1px solid var(--electric);
 }
-
+#products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  max-width: 1200px;
+  width: 100%;
+}
 
 
 
@@ -738,7 +750,3 @@ main {
   border-radius: 80px;
 } 
   
-.navbar__container {
-  gap: 150px;
-  animation: changeBorderColor 5s linear infinite;
-}
