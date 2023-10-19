@@ -23,7 +23,15 @@ html {
 .show-overlay {
   display: block;
 }
+.cart-icon {
+  transition: all 0.2s ease-out;
+}
 
+.cart-icon:hover {
+  color: var(--electric);
+  border-color: var(--electric);
+  transition: all 0.2s ease-in;
+}
 .quantity-handler:hover {
   cursor: pointer;
   background-color: var(--electric);

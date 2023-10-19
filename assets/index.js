@@ -40,7 +40,7 @@ const createProductTemplate = (product) => {
                 data-id='${id}'
                 data-name='${name}'
                 data-bid='${bid}'
-                data-img='${cardImg}'>Agregar prestación al carrito</button>
+                data-img='${cardImg}'>Agregar prestación </button>
             </div>
         </div>
     </div>

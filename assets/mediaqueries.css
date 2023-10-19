@@ -1,9 +1,10 @@
-/* Tablet */
+
 @media (max-width: 1240px) {
 
 
   .navbar__container {
     gap: 10px;
+  
   }
 
   .cart-icon {
@@ -100,8 +101,7 @@
   }
 }
 
-/* Celu */
-@media (max-width: 576px) {
+@media (max-width: 376px) {
   
 
   .cart {
@@ -121,13 +121,14 @@
   }
 
   
-  
+
 
   /* products */
   .categories {
     max-width: 300px;
     justify-content: center;
     align-items: center;
+    display: flex;
   }
 
   .category {
@@ -141,11 +142,10 @@
   .product {
     width: 100%;
   }
-
   .product-info h3,
   .product-info p,
   .product-info span {
-    font-size: 12px;
+    font-size: 15px;
   }
 
  
@@ -174,13 +174,25 @@
   .cart-item, .scan h3  {
     width: 70%;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     flex-direction: column;
   }
   .item-info {
     text-align: center;
   }
   
+  .up {
+    border: 1px solid rgb(23, 188, 185);
+    border-radius: 20px;
+  padding: 2px;
+  }
+  
+  .down {
+    background-color: var(--secondary);
+    border: 1px solid var(--electric);
+    border-radius: 20px;
+    padding: 2px;
+  }
   
   .logo1{
   
@@ -194,5 +206,8 @@
   font-size: 18px;
   color: rgb(18, 59, 55);
 } 
-  
+.footer__text {
+  text-align:center ;
+  padding: 5em 0;
+}
 }
