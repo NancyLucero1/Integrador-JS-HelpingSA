@@ -264,13 +264,13 @@ text-align: center;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 50%;
+    width: 80%;
   }
   
   .content__text  h1 {
-    font-size: 45px;
+    font-size: 40px;
     width: 80%;
-    min-width: 500px; 
+    min-width: 470px; 
     font-weight: 300;
     background: linear-gradient(to top, #30cfd0, #c43ad6);
     background-clip: text;

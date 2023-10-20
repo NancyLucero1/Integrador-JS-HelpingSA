@@ -28,10 +28,23 @@ html {
 }
 
 .cart-icon:hover {
-  color: var(--electric);
-  border-color: var(--electric);
+  color: rgb(65, 242, 236);
+  border-color:rgb(65, 242, 236) ;
   transition: all 0.2s ease-in;
 }
+
+.menu-icon {
+  transition: all 0.2s ease-out;
+}
+
+.menu-icon:hover {
+  color: rgb(65, 242, 236);
+  border-color:rgb(65, 242, 236) ;
+  transition: all 0.2s ease-in;
+}
+
+
+
 .quantity-handler:hover {
   cursor: pointer;
   background-color: var(--electric);
