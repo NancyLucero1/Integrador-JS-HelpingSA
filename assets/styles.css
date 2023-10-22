@@ -469,16 +469,18 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 40px;
-  padding: 60px 0;
+  gap: 30px;
+  padding: 40px 0;
 }
 ;
  
 footer a,
 footer p {
   color: var(--text-gray);
-  font-weight: 300;
-  font-size: 14px;
+  font-weight: 80;
+  font-size: 6px;
+  text-align: justify;
+  width: 60%;
 }
 
 .map-iframe {
