@@ -1,3 +1,6 @@
+
+
+
 .form__container {
   display: flex;
   flex-direction: column;
@@ -10,12 +13,56 @@
 }
 
 .form__field {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 3px;
+
 }
+
+/*.bx {
+  /*position: absolute;
+  display: flex;
+  
+  font-size: 25px;
+  cursor: pointer;
+  color: #0fd5eb;
+  transform: translateY(-4px); 
+  right: 20px;
+  padding-left: 2px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px*/
+  
+  .bx {
+     
+    position: absolute;
+    font-size: 30px;
+    cursor: pointer;
+    color: #0fd5eb;
+    transform: translateX(350%);
+    top: 15%;
+    
+  
+ 
+}
+  
+  
+
+
+  
+ /* position: absolute;
+  cursor: pointer;
+  color: #0fd5eb;
+  top: 50%;
+ transform: translateY(-50%); 
+  font-size: 25px;
+  right: 10px;*/
+
+
 
 .form__title {
   margin-bottom: 10px;

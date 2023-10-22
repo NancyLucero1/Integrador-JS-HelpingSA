@@ -311,11 +311,22 @@ header {
 
 .hero-info p {
   font-size: 14px;
-  width: 80%;
+  width: 90%;
   color: var(--text-gray);
+  text-align: justify;
+  padding:  5px;
+
 }
 
-
+.hero-info a {
+  color: var(--text-white);
+  background-color: var(--primary);
+  width: 800px;
+  padding: 8px 0px;
+  border-radius: 10px;
+  font-size: 14px;
+  text-align: center;
+}
 
 
 .imagensalud1 {

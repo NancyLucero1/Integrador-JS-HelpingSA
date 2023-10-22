@@ -10,65 +10,12 @@
 
 
 
-header {
-  background: rgb(16, 16, 16);
-  width: 100%;
-  position: fixed;
-  top: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 65px;
-  padding: 0px 200px 0px 70px;
-  margin: 0 auto;
-  z-index: 999;
-}
 
-
-.cart-icon {
-  font-weight: 600;
-  border-radius: 10px;
-  font-size: 18px;
-  margin-right: -5rem;
-  color: var(--text-white);
-  cursor: pointer;
-  position: relative;
-  
-}
-
-.navbar__container,
-.navbar-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.navbar {
-  gap: 50px;
-}
-.navbar-list {
-  gap: 50px;
-}
-
-.navbar-list a {
-  color: white;
-  font-size: 18px;
-}
-
-
-
-  
-body {
-  font-family: "Poppins", sans-serif;
-  background:#004643;
-  color: white;
-}
-
-main {
+/*main {
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 10px;
-}
+}*/
 
 
 
@@ -295,6 +242,7 @@ text-align: center;
     background-clip: text;
     color: transparent;
     -webkit-background-clip: text;
+    font-weight: bold;
   }
   
   .content__text h1 span::before,

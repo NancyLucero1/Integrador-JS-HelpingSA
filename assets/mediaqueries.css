@@ -119,10 +119,12 @@
 
   /*Hero*/
   .hero-info p {
-    width: 70%;
-    max-width: unset;
+  
+    
+    width: 90%;
+    max-width: 800px;
   }
-
+ 
   
 
 
@@ -214,5 +216,6 @@
   text-align:center ;
   padding: 1em 0;
 }
+
 
 }

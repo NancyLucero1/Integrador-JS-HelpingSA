@@ -186,7 +186,7 @@ const validateForm = (e) => {
 };
 
 
-const init = () =>{
+const initial = () =>{
     registerForm.addEventListener("submit", validateForm)
     nameInput.addEventListener("input",()=> checkTextInput(nameInput))
     lastNameInput.addEventListener("input",()=> checkTextInput(lastNameInput))
@@ -195,9 +195,25 @@ const init = () =>{
     phoneInput.addEventListener("input",()=> checkPhone(phoneInput))
 }
 
-init()
+initial()
 
 
+const password = document.getElementById("password");
+const icon = document.querySelector(".bx");
+
+
+icon.addEventListener("click" , e => { 
+      if (password.type === "password" ){ 
+        password.type ="text";
+        icon.classList.remove('bx-show-alt') 
+        icon.classList.add('bx-hide') 
+      } else{ 
+        password.type ="password";
+        icon.classList.add('bx-show-alt') 
+        icon.classList.remove('bx-hide') 
+
+      }
+    } );
 
     
 
