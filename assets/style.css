@@ -9,16 +9,22 @@
 }
 
 
-
-
-/*main {
-  max-width: 1200px;
-  margin: 0 auto;
-  margin-top: 10px;
-}*/
+.navbar__container, .navbar-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
 
+.navbar-list {
+  gap: 50px;
+}
+
+.navbar-list a {
+  color: white;
+  font-size: 18px;
+}
 .content__text h1 {
   font-weight: 200;
   transform: translateY(50px);

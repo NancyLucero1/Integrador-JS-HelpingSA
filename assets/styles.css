@@ -63,14 +63,6 @@ header {
 
 
 
-
-.logo {
-  margin-left: -1rem;
-  position: relative;
-  transform: translateX(2%);
-  
-}
-
 .navbar__container, .navbar-list {
   display: flex;
   align-items: center;

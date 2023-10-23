@@ -51,11 +51,13 @@
     display: flex;
     order: 2;
     cursor: pointer;
+    
   }
 
   .menu-label img {
     height: 20px;
     width: 25px;
+  
   }
 
   .open-menu {

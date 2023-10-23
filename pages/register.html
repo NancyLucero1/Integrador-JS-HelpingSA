@@ -9,10 +9,10 @@
   <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/180x180.jpg" />
   <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/32x32.jpg" />
   <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/16x16.jpg" />
-
-  <link rel="stylesheet" href="..index.html" />
   <link rel="stylesheet" href="../assets/styles.css" />
   <link rel="stylesheet" href="../assets/style.css" />
+
+ 
   <link rel="stylesheet" href="../assets/form.css" />
   <link rel="stylesheet" href="../assets/animaciones.css" />
   <link rel="stylesheet" href="../assets/mediaqueries.css" />
@@ -27,10 +27,7 @@
 <body>
   <header>
     <img src="../assets/img/logo.png"width="50" height="50"  alt="">
-    <a href="https://api.whatsapp.com/send?phone=987654321" 
-     class="btn-wsp" target="_blank">              
-      <i class="fa-brands fa-whatsapp"></i>
-     </a>
+    
      <nav class="navbar__container">
      
       <div class="menu-label">
@@ -48,34 +45,37 @@
         <li><a class="navbar-link" href="../pages/carousel.html">Equipo</a></li>
        
       </ul>
-      
+      <div class="cart-label">
+
+        <i class="fa-solid fa-cart-shopping cart-icon">
+          <div class="cart-bubble">0</div>
+        </i>
+  
+      </div>
+      <div class="cart">
+  
+        <h2>Tus prestaciones contratadas</h2>
+    
+    
+        <div class="cart-container">
+    
+        </div>
+    
+        <span class="divider"></span>
+    
+        <div class="cart-total">
+          <p>Total:</p>
+          <span class="total">3 US$</span>
+        </div>
+        <button class="btn-buy">Comprar</button>
+        <button class="btn-delete">Vaciar carrito</button>
+      </div>
     </nav>
-    <div class="cart-label">
-
-      <i class="fa-solid fa-cart-shopping cart-icon">
-        <div class="cart-bubble">0</div>
-      </i>
-
-    </div>
-    <div class="cart">
-
-      <h2>Tus prestaciones contratadas</h2>
-  
-  
-      <div class="cart-container">
-  
-      </div>
-  
-      <span class="divider"></span>
-  
-      <div class="cart-total">
-        <p>Total:</p>
-        <span class="total">3 US$</span>
-      </div>
-      <button class="btn-buy">Comprar</button>
-      <button class="btn-delete">Vaciar carrito</button>
-    </div>
-  
+    
+    <a href="https://api.whatsapp.com/send?phone=987654321" 
+    class="btn-wsp" target="_blank">              
+     <i class="fa-brands fa-whatsapp"></i>
+    </a>
   </header>
   <main>
 
